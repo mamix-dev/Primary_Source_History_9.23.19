@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Primary Source</title>
+    <link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/en/b/be/Flag_of_England.svg">
+<style>
+    @import url('https://fonts.googleapis.com/css?family=Martel&display=swap');
+#body {
+    background-color:#F1F1D4;
+}
+    #quote1{     /*Fade in animation for the entirety of the first quote*/
+        animation-name: start_animation;
+        animation-duration: 5s;
+        animation-timing-function: ease-in-out;
+    }
+    @keyframes start_animation{
+        from{
+            opacity: 0%;
+        }
+        to{
+            opacity: 100%;
+        }
+    }
+#quote1title { /*Each of the sentences has their own styling in case I feel like changing something its pretty inefficient but I'm too lazy to change it so it will be left how it is*/
+    color: black;
+    font-family: 'Martel', serif;
+    font-size: 36px;
+    line-height: 45px;
+    text-align: center;
+    }
+#quote1sent1 {
+    color: black;
+    font-family: 'Martel', serif;
+    font-size: 34px;
+    line-height: 45px;
+    text-align: center;
+    }
+#quote1sent2{        
+    color: black;
+    font-family: 'Martel', serif;
+    font-size: 34px;
+    line-height: 45px;
+    text-align: center;
+    }
+#quote1sent3{
+    color: black;
+    font-family: 'Martel', serif;
+    font-size: 34px;
+    line-height: 45px;
+    text-align: center;
+    }
+#quote2BROAD{
+    animation-name: start_animation;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+}
+.quote2{
+    color: black;
+    font-family: 'Martel', serif;
+    font-size 36px;
+    line-height: 45px;
+    text-align: center;
+}
+.quote2sent{
+    color: black;
+    font-family: 'Martel', serif;
+    font-size: 36px;
+    line-height: 45px;
+    text-align: center;
+}    
+</style>
+</head>
+<body id="body" lang="en-US">
+    <div id="quote1"> <!--First quote-->
+        <h1 id="quote1title">John Smith, 1584.</h1>
+        <p id="quote1sent1" 
+           onmouseover="this.innerHTML='The most famous, renowned, and ever worthy of all memory for her courage, learning, judgement, and virtue. Queen Elizabeth granted her letters patents to Sir Walter Raleigh for discovering and planting new lands and countries that aren&#8217t owned by Christians.';" 
+           onmouseout="this.innerHTML='The most famous, renowned, and euer worthy of all memory, for her courage, learning, judgement, and vertue, Queene Elizabeth, granted her Letters Patents to Sir Walter Raleigh for the discovering and planting new Lands and Countries, not actually possessed by any Christians.';">The most famous, renowned, and euer worthy of all memory, for her courage, learning, judgement, and vertue, Queene Elizabeth, granted her Letters Patents to Sir Walter Raleigh for the discovering and planting new Lands and Countries, not actually possessed by any Christians.</p>
+        <p id="quote1sent2"
+           onmouseover="this.innerHTML='This pact has got to be with his assistants Sir Richard Grenvell the valiant and Mr. William Sanderson (a great friend to all such noble and worthy actions). As well as the other people who will help us like Gentlemen and Merchants, who with all speed provided us with two small ships that were stocked for a journey. These ships were under the command of Captain Philip Amidas and Captain Barlow.';"
+           onmouseout="this.innerHTML='This Patenty got to be his assistants Sir Richard Grenvell the valiant, Mr William Sanderson a great friend to all such noble and worthy actions, and divers other Gentlemen and Marchants, who with all speede provided two small Barkes well furnished with all necessaries, Under the command of Captaine Philip Amidas and Captaine Barlow.';">This Patenty got to be his assistants Sir Richard Grenvell the valiant, Mr William Sanderson a great friend to all such noble and worthy actions, and divers other Gentlemen and Marchants, who with all speede provided two small Barkes well furnished with all necessaries, Under the command of Captaine Philip Amidas and Captaine Barlow.</p>
+        <p id="quote1sent3"
+           onmouseover="this.innerHTML='On the 27&#60sup&#62th&#60/sup&#62 of April they set sail from the Thames River. On the 10&#60sup&#62th&#60/sup&#62 of May they passed the Canary Islands. On the 10&#60sup&#62th&#60/sup&#62 of June they passed the West Indies. This course of travel by the West Indies was too far south but they weren&#8217t aware of where their final location was, so they didn&#8217t know any better. Their stay in the West Indies made many of the crew sick that season.';"
+           onmouseout="this.innerHTML='The 27. of April they set sayle from the Thames, the tenth of May passed the Canaries, and the tenth of June the West Indies, which unneedfull Southerly course, (but then no better was knowne) occasioned them in that season much sicknesse.';">The 27. of April they set sayle from the Thames, the tenth of May passed the Canaries, and the tenth of June the West Indies: which unneedfull Southerly course, (but then no better was knowne) occasioned them in that season much sicknesse.</p>
+    </div>
+    <br>
+    <div id="quote2BROAD">
+        <h1 class="quote2">The Virignia Charter, April 10th 1606</h1>
+        <p class="quote2sent">First Virginia Charter</p>
+        <p class="quote2sent"
+           onmouseover="this.innerHTML='King James, by the grace of God, the King of England, Scotland, France, Ireland, and defender of the Protestant faith.';"
+           onmouseout="this.innerHTML='James, by the grace of God [King of England, Scotland, France, Ireland, and Defender of the Faith], ect.';">James, by the grace of God [King of England, Scotland, France, Ireland, and Defender of the Faith], ect.</p>
+        <p class="quote2sent"
+           onmouseover="this.innerHTML='Our loving and good mannered subjects of the crown, and the leaders of our loving subjects of the crown have been humble suitors for us that we would vouch for them through our license to make habitation, plantation, and to create a colony of an unknown number of people located in the part of America frequently called Virginia. This also includes parts/territories of America that aren&#8217t part of any other Christian nation&#47state. All the claimable land is from 34&#186 latitude to 45&#186 latitude and 100 miles inland from the coast.';"
+           onmouseout="this.innerHTML='Whereas our loving and weldisposed subjects ... and divers others of our loving subjects, have been humble sutors unto us that wee woulde vouchsafe unto them our licence to make habitacion, plantacion and to deduce a colonie of sondrie of our people into that parte of America commonly called Virginia, and other parts and territories in America either appartaining unto us or which are not nowe actuallie possessed by anie Christian prince or people, scituate, lying and being all along the sea coastes between fower and thirtie degrees of northerly latitude from the equinoctiall line and five and fortie degrees of the same latitude and in the maine lande betweene the same fower and thirtie and five and fourtie degrees, and the ilandes thereunto adjacente or within one hundred miles of the coaste thereof&#59';">Whereas our loving and weldisposed subjects ... and divers others of our loving subjects, have been humble sutors unto us that wee woulde vouchsafe unto them our licence to make habitacion, plantacion and to deduce a colonie of sondrie of our people into that parte of America commonly called Virginia, and other parts and territories in America either appartaining unto us or which are not nowe actuallie possessed by anie Christian prince or people, scituate, lying and being all along the sea coastes between fower and thirtie degrees of northerly latitude from the equinoctiall line and five and fortie degrees of the same latitude and in the maine lande betweene the same fower and thirtie and five and fourtie degrees, and the ilandes thereunto adjacente or within one hundred miles of the coaste thereof;</p>
+        <p class="quote2sent"
+           onmouseover="this.innerHTML='Furthermore, the process of setting up the aforementioned plantation and habitation should be speedy. First, they need to divide themselves into two classes&#59 one made up of knights, gentlemen, merchants, and a different class made up of other adventurers from the city of London. After some time, the plantations and habitations should be set up in a convenient and and fitting place on the coastline between 34&#186 latitude to 45&#186 latitude. The people that can set this up include the two previously mentioned classes, people from cities of Exeter and Bristol, townspeople from Plymouth as well as other people that want to join themselves in the colony.';"
+           onmouseout="this.innerHTML='And to that ende, and for themore speedy accomplishemente of theire saide intended plantacion and habitacion there, are desirous to devide themselves into two severall colonies and companies, the one consisting of certaine Knightes, gentlemen, marchanntes and other adventurers of our cittie of London, and elsewhere, which are and from time to time shalbe joined unto them which doe desire to begin theire plantacions and habitacions in some fitt and conveniente place between fower and thirtie and one and fortie degrees of the said latitude all alongest the coaste of Virginia and coastes of America aforesaid and the other consisting of sondrie Knightes, gentlemen, merchanntes, and other adventurers of our citties of Bristoll and Exeter, and of our towne of Plymouthe, and of other places which doe joine themselves unto that colonie which doe desire to beginn theire plantacions and habitacions in some fitt and convenient place betweene eighte and thirtie degrees and five and fortie degrees of the saide latitude all alongst the saide coaste of Virginia and America as that coaste lieth;';">And to that ende, and for themore speedy accomplishemente of theire saide intended plantacion and habitacion there, are desirous to devide themselves into two severall colonies and companies, the one consisting of certaine Knightes, gentlemen, marchanntes and other adventurers of our cittie of London, and elsewhere, which are and from time to time shalbe joined unto them which doe desire to begin theire plantacions and habitacions in some fitt and conveniente place between fower and thirtie and one and fortie degrees of the said latitude all alongest the coaste of Virginia and coastes of America aforesaid and the other consisting of sondrie Knightes, gentlemen, merchanntes, and other adventurers of our citties of Bristoll and Exeter, and of our towne of Plymouthe, and of other places which doe joine themselves unto that colonie which doe desire to beginn theire plantacions and habitacions in some fitt and convenient place betweene eighte and thirtie degrees and five and fortie degrees of the saide latitude all alongst the saide coaste of Virginia and America as that coaste lieth;</p>
+        <p class="quote2sent"
+           onmouseover="this.innerHTML='We, graciously accepting of their desires to work for such a noble cause, by the providence of God, tend to the glory of &#34His Divine Majesty&#34 in spreading the Christian religion to people that live in the dark and miserable ignorance of the true knowledge and worship of God. With time, we can bring the infidels and savages to a settled and governed society. By those letters, we graciously accept and agree to the humble and well-intended desires.';"
+           onmouseout="this.innerHTML='Wee, greately commending and graciously accepting of theire desires to the furtherance of soe noble a worke which may, by the providence of Almightie God, hereafter tende to the glorie of His Divine Majestie in propagating of Christian religion to suche people as yet live in darkenesse and miserable ignorance of the true knoweledge and worshippe of God and may in tyme bring the infidels and salvages living in those parts to humane civilitie and to a setled and quiet govermente, doe by theise our lettres patents graciously accepte of and agree to theire humble and well intended desires.';">Wee, greately commending and graciously accepting of theire desires to the furtherance of soe noble a worke which may, by the providence of Almightie God, hereafter tende to the glorie of His Divine Majestie in propagating of Christian religion to suche people as yet live in darkenesse and miserable ignorance of the true knoweledge and worshippe of God and may in tyme bring the infidels and salvages living in those parts to humane civilitie and to a setled and quiet govermente, doe by theise our lettres patents graciously accepte of and agree to theire humble and well intended desires.</p>
+    </div>
+</body>
+</html>
